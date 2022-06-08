@@ -1,0 +1,381 @@
+.companyPage {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 22px;
+}
+@media (max-width: 1250.98px) {
+  .companyPage {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+.companyPage .breadCrumbs {
+  margin-left: -35px;
+  margin-bottom: 85px;
+}
+@media (max-width: 1250.98px) {
+  .companyPage .breadCrumbs {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+}
+.companyPage .companyPage__status {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #AEAEAE;
+  opacity: 0.5;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.companyPage .companyPage__status span {
+  margin-right: 19px;
+}
+.companyPage .companyPage__since {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213539;
+}
+.companyPage .companyPage__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #213539;
+  margin-bottom: 5px;
+}
+.companyPage .companyPage__desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #213539;
+  margin-bottom: 10px;
+}
+.companyPage .companyPage__badgesStarsHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.companyPage .companyPage__badgesStarsHolder .companyPage__badgesHolder {
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.companyPage .companyPage__badgesStarsHolder .companyPage__badgesHolder .companyPage__badge {
+  max-width: 20px;
+  margin: 0 10px 10px 0;
+  max-height: 20px;
+}
+.companyPage .companyPage__badgesStarsHolder .companyPage__badgesHolder .companyPage__badge .companyPage__badgeImg {
+  width: 100%;
+}
+.companyPage .companyPage__badgesStarsHolder .companyPage__starsHolder {
+  margin-bottom: 10px;
+}
+.companyPage .companyPage__badgesStarsHolder .companyPage__starsHolder .companyPage__stars .companyPage__starsLine {
+  font-size: 26px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  background: #32BDD6;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  -webkit-text-stroke: 0.5px #32BDD6;
+}
+.companyPage .companyPage__topInfoBlock {
+  margin-bottom: 30px;
+}
+.companyPage .companyPage__topInfoBlock .companyPage__topInfoBlockTitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #AEAEAE;
+}
+.companyPage .companyPage__topInfoBlock p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213539;
+}
+.companyPage .companyPage__topInfoBlock .companyPage__topInfoSite,
+.companyPage .companyPage__topInfoBlock .companyPage__topInfoMail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #018EAD;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+.companyPage .companyPage__topInfoBlock .companyPage__topInfoBlockNums {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #2F4E54;
+  margin-bottom: 5px;
+}
+.companyPage .companyPage__topInfoBlock .companyPage__topInfoBlockContacts {
+  margin-right: -7px;
+  margin-left: -7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.companyPage .companyPage__topInfoBlock .companyPage__topInfoBlockContacts .companyPage__topInfoBlockContact {
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+.companyPage .companyPage__topInfoBlock .companyPage__topInfoBlockContacts .companyPage__topInfoBlockContactLink {
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+.companyPage .companyPage__topInfoBlock .companyPage__topInfoBlockContacts .companyPage__topInfoBlockContactLink:hover {
+  opacity: 0.7;
+}
+.companyPage .companyPage__logoDescHolder {
+  margin-top: 50px;
+}
+.companyPage .companyPage__logoDescHolder .companyPage__logoHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+.companyPage .companyPage__logoDescHolder .companyPage__logoHolder img {
+  width: 100%;
+  max-height: 250px;
+  max-width: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.companyPage .companyPage__logoDescHolder .companyPage__largeDesc {
+  margin-bottom: 50px;
+}
+.companyPage .companyPage__bottomInfoBlock {
+  margin-bottom: 30px;
+}
+.companyPage .companyPage__bottomInfoBlock .companyPage__bottomInfoBlockTitle {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #AEAEAE;
+  margin-bottom: 10px;
+}
+.companyPage .companyPage__bottomInfoBlock span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2F4E54;
+  display: block;
+  margin-bottom: 10px;
+}
+.companyPage .companyPage__tabsUl {
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.companyPage .companyPage__tabsUl .companyPage__tabsLi {
+  margin-right: 10px;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+.companyPage .companyPage__tabsUl .companyPage__tabsLi .companyPage__tabsLink {
+  background: #F1F2F3;
+  color: #2F4E54;
+  border-radius: 60px;
+  padding: 6px 20px 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+.companyPage .companyPage__tabsUl .companyPage__tabsLi .companyPage__tabsLink:hover {
+  opacity: 0.7;
+}
+.companyPage .companyPage__tabsUl .companyPage__tabsLi .companyPage__tabsLink.active {
+  background: #32BDD6;
+  color: #fff;
+}
+.companyPage .tabsContHolder__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2F4E54;
+  margin-bottom: 27px;
+}
+.companyPage .tabsContHolder__title_accordion {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2F4E54;
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+.companyPage .tabsContHolder__title_accordion:hover {
+  opacity: 0.7;
+}
+.companyPage .tabsContHolder__title_accordion .acc_arrow {
+  right: 5px;
+  position: absolute;
+  top: 24px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: -webkit-transform 0.25s ease;
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
+  transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+  fill: #32BDD6;
+}
+.companyPage .tabsContHolder__title_accordion.collapsed .acc_arrow {
+  right: 5px;
+  position: absolute;
+  top: 24px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  fill: #2F4E54;
+}
+.companyPage .accordion:last-child {
+  border-bottom: 1px solid #DDF0F4;
+}
+.companyPage .tabsContHolder__body {
+  padding-bottom: 15px;
+}
+.companyPage .accordionItem {
+  border-top: 1px solid #DDF0F4;
+}
+.companyPage .tabsContHolder__dotItem {
+  padding-left: 17px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.companyPage .tabsContHolder__dotItem::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background: #32BDD6;
+  border-radius: 50%;
+}
+.companyPage .tabsContHolder__dotItem strong {
+  font-weight: 500;
+}
+.companyPage .tabsContHolder__body {
+  margin-top: 15px;
+}
+.companyPage .photosBlock .photoHolder {
+  position: relative;
+  padding-top: 58%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.companyPage .photosBlock .photoHolder .photoInner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.companyPage .photosBlock .photoHolder .photoInner img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: inherit;
+}
+
+.scroll_x::-webkit-scrollbar {
+  height: 5px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.scroll_x::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  cursor: pointer;
+}
+
+.scroll_x::-webkit-scrollbar-thumb {
+  background-color: #25b1cc;
+  outline: 1px solid transparent;
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+.company_no_cont {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #BFC6C7;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #BFC6C7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+.company_no_cont img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
